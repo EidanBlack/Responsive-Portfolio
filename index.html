@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Candia's Portfolio</title>
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <span class="iconify" data-icon="charm:menu-hamburger" style="color: #986f93;"></span>
+            </label>
+            <label class="logo">AdrianCandia</label>
+            <ul>
+                <li><a class="active" href="#">About me</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+        </nav>
+                    
+    </header>
+    <section id="home">
+        <div class="home_container">
+            <h1>Hello, I'm a Web Developer Junior</h1>
+            <p>Currently learning HTML, CSS and Javascript to make well responsive designed pages.</p>
+            <button class="about_me_button">About Me</button>
+        </div>
+    </section>
+    <section id="about_me">
+        <div class="about_me_container">
+            <h2>About Me</h2>
+            <div class="about_me_container">
+                <ul>
+                    <li>I'm Adrian Candia from Asunción, Paraguay.</li>
+                    <li>I'm a computer science student, passionate about programming and web design.</li>
+                    <li>Currently learning front-end development to make responsive web designs.</li>
+                    <li>I would like to collaborate on web projects of all kinds and grow in the programming profession.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="my_skills">
+        <h2>My Skills and Knowledges</h2>
+        <div class="my_skills_content">
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JAVASCRIPT</li>
+                <li>MySQL</li>
+                <li>Python</li>
+                <li>Responsive Design</li>
+                <li>SASS</li>
+            </ul>
+        </div>
+    </section>
+    <section id="my_projects">
+        <h2>My Projects</h2>
+        <div class="my_projects_content">
+
+        </div>
+    </section>
+    <section id="contact_me">
+        <form>
+            <ul>
+                <li>
+                    <label for="name">Nombre:</label>
+                </li>
+                <li>
+                    <input type="text" id="name" name="form_name">
+                </li>
+                <li>
+                    <label for="email">E-mail:</label>
+                </li>
+                <li>
+                    <input type="email" id="email" name="form_email">
+                </li>
+                <li>
+                    <label for="mensaje">Mensaje:</label>
+                </li>
+                <li>
+                    <textarea id="mensaje" name="form_mensaje"></textarea>
+                </li>
+                <li>
+                    <button type="submit">Enviar</button>
+                </li>                
+            </ul>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
