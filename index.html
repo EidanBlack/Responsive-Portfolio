@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adrian Candia's Portfolio</title>
     <link href="normalize.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700;900&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet" />
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 </head>
@@ -26,12 +29,18 @@
                 <li><a href="#">Contact me</a></li>
             </ul>
         </nav>
-                    
     </header>
     <section id="home">
         <div class="home_container">
-            <h1>Hello, I'm a Web Developer Junior</h1>
-            <p>Currently learning HTML, CSS and Javascript to make well responsive designed pages.</p>
+            <div class="picture_container">
+                <picture>
+                    <source srcset="img/profile_picture.webp" type="image/webp">
+                    <source srcset="img/profile_picture.jpg" type="image/jpeg">
+                    <img src="img/profile_picture.jpg" alt="Adrian Candia Profile Picture" class="profile_picture">
+                </picture>
+            </div>
+            <h1>I'm a Web Developer</h1>
+            <p>Currently learning HTML, CSS and JavaScript to make well responsive designed pages.</p>
             <button class="about_me_button">About Me</button>
         </div>
     </section>
@@ -92,7 +101,7 @@
                 </li>
                 <li>
                     <button type="submit">Enviar</button>
-                </li>                
+                </li>
             </ul>
         </form>
     </section>

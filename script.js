@@ -1,12 +1,10 @@
-function myFunction() {
-    var x = document.getElementById("mytopnav");
-    var z = document.getElementById("navegador");
-
-    if (x.className === "menutopbar") {
-      x.className += " responsive";
-      z.className += " responsive";
-    } else {
-      x.className = "menutopbar";
-      z.className = "topnav";
-    }
+function changeLetter(){
+  let letter = document.getElementById('letter');
+  if(letter.innerHTML == 'o'){
+    letter.innerHTML = "a";
+  } else {
+    letter.innerHTML = "o";
   }
+}
+
+setInterval('changeLetter()', 1000);
