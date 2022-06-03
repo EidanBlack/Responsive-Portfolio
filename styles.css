@@ -153,10 +153,10 @@ a.active, nav ul li a:hover {
 }
 
 .picture_container {
-    width: 19rem;
-    height: 19rem;
-    margin-bottom: 5rem;
-    margin-top: -5rem;
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
     position: relative;
     background: rgba(0,0,0,0.9);
     border-radius: 50%;
@@ -168,7 +168,7 @@ a.active, nav ul li a:hover {
     position: absolute;
     width: auto;
     height: auto;
-    inset: -10px 60px;
+    inset: -10px 110px;
     background: linear-gradient(315deg, var(--skyblue), var(--magenta));
     transition: 0.5s;
     animation: animate 4s linear infinite;
@@ -261,6 +261,8 @@ a.active, nav ul li a:hover {
     opacity: 0;
 }
 
+/****HOME SECTION****/
+
 .home_container h1, p {
     color: var(--blanco);
     line-height: 3rem;
@@ -274,8 +276,8 @@ a.active, nav ul li a:hover {
 
 .home_container p {
     font-size: 2.8rem;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2.8rem;
     text-align: center;
 }
 
@@ -299,17 +301,16 @@ a.active, nav ul li a:hover {
 
 @media (max-width: 600px){
     .picture_container {
-        width: 15rem;
-        height: 15rem;
+        width: 25rem;
+        height: 25rem;
+        margin-top: -3rem;
     }
     .home_container h1 {
         font-size: 3rem;
-        text-align: center;
-        margin-top: -3rem;
+        margin-top: 1rem;
     }
     .home_container p {
         font-size: 1.4rem;
-        text-align: center;
-        margin-top: -2.5rem;
+        margin-top: -1rem;
     }
 }
