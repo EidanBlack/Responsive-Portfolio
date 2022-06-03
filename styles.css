@@ -114,11 +114,12 @@ a.active, nav ul li a:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: var(--magenta);
-        top: 16rem;
+        background: var(--negro);
+        top: 8rem;
         left: -100%;
         transition: all 0.5s;
         text-align: center;
+        z-index: 10;
     }
     nav ul li {
         display: block;
@@ -130,7 +131,7 @@ a.active, nav ul li a:hover {
     }
     a:hover,a.active {
         background: none;
-        color: var(--negro);
+        color: var(--blanco);
     }
     #check:checked ~ ul {
         left: 0;
